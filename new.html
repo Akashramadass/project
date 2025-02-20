@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div> 
+        <h2>Register</h2>
+        <table>
+        <form action="register.html">
+            
+                <tr><td>Name</td><td><input type="text" id="Name" name="Name"/></td></tr>
+                <tr><td>Email</td><td><input type="email" id="email"  name="email"/></td></tr>
+                <tr><td>Mobile</td><td><input type="number" id="mob" name="mob"/></td></tr>
+                <tr><td>DOB</td><td><input type="date" id="dob" name="dob"/></td></tr>
+                <tr><td>Department</td>
+                    <td>
+                        <select id="department" name="dpt">
+                            <option>CSE</option>
+                            <option>MECH</option>
+                            <option>CIVIL</option> 
+                            <option>ECE</option>
+                        </select>
+                    </td></tr>
+                <tr><td>Gender</td>
+                    <td><input type="radio" id="Male" name="gender" value="male"/>Male
+                    <input type="radio" id="Female" name="gender" value="female"/>Female
+                    <input type="radio" id="Others" name="gender" value="others"/>Others</td>
+                </tr>
+                <tr><td>Skills</td>
+                    <td><input type="checkbox" name="skills" value="HTML"/>HTML
+                    <input type="checkbox" name="skills" value="css"/>CSS
+                    <input type="checkbox" name="skills" value="js"/>JS</td>
+                </tr>
+                <tr><td>Photo</td><td><input type="file"  name="photo"/></td></tr>
+                <tr><td>Month</td><td><input type="month" name="month" /></td></tr>
+                <tr><td>Time</td><td><input type="time"  name="time"/></td></tr>
+                <tr><td>Week</td><td><input type="week" name="week"/></td></tr>
+                <tr><td>others</td><td><input type="textarea"/></td> </tr>
+              <tr> <td><input type="submit" value="submit" /></td>
+               <td><input type="reset" value="cancel" /></td></tr>
+                
+            
+        </form>
+        </table>
+</body>
+</html>
